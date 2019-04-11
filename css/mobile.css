@@ -1,0 +1,63 @@
+.mobile{
+  display: block;
+}
+.nav{
+  display: none;
+}
+.desktop{
+  display: none;
+}
+
+.navbtn,.list{
+  margin: 20px;
+  float: left;
+}
+.list{
+  float: right;
+}
+.main{
+  margin-top: 50px;
+}
+.mn::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.logo{
+  width: 180px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+
+}
+.main{
+  width: 90%;
+}
+.main .input{
+  width: 75%;
+}
+.main .input input{
+  width: 80%;
+  float: left;
+}
+.icon-xiangji1,.icon-maikefeng{
+  display: inline;
+  line-height: 34px;
+}
+.from button{
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid #eee;
+  color: #38f;
+  width: 24%;
+}
+.lo{
+  width: 90%;
+}
+.lo::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.lo .icon-cha{
+  float: right;
+}
