@@ -1,6 +1,7 @@
 .mobile{
   display: block;
 }
+
 .nav{
   display: none;
 }
@@ -18,7 +19,7 @@
 .main{
   margin-top: 50px;
 }
-.mn::after{
+.mn::after,.main::after{
   content: "";
   display: block;
   clear: both;
@@ -52,6 +53,7 @@
 }
 .lo{
   width: 90%;
+  margin:10px auto;
 }
 .lo::after{
   content: "";
@@ -60,4 +62,35 @@
 }
 .lo .icon-cha{
   float: right;
+}
+#toggle:checked~.lo{
+  display: none;
+}
+#cb:checked~.nav{
+  display: block;
+}
+.nav{
+  margin-top: 10px;
+
+}
+.nav .adsf{
+  float: none;
+  margin-bottom: 100px;
+}
+.nav .mo,.nav .login,.nav .btn{
+  float: none;
+  display: block;
+}
+.mo .item,.login .loginlink,.login .set{
+  display: block;
+  float: none;
+  margin: 0 auto;
+}
+.mo .item a,.login .loginlink a,.login .set a,.nav .btn{
+  display: block;
+  float: none;
+  line-height: 24px;
+  font-size: 13px;
+  margin:5px auto;
+
 }
